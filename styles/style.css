@@ -1,0 +1,29 @@
+body p {
+    font-size: 10px;
+}
+
+#content {
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+#content a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#content .content {
+    color: plum;
+    padding: 0.5rem;
+    border: 2px solid black;
+    display: none;
+}
+
+#content .active {
+    display: flex !important;
+}
